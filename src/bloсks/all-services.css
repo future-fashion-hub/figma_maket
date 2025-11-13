@@ -1,0 +1,72 @@
+.all-services {
+  margin-top: 120px;
+  /* display: none; */
+}
+
+.all-services__table {
+  margin-left: 0;
+  padding-left: 0;
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 1px;
+}
+
+.all-services__item {
+  background-color: #393f47;
+  display: flex;
+  align-items: center;
+  position: relative;
+  flex-direction: column;
+}
+.all-services__flight {
+  border-style: none;
+  background-color: rgba(0, 0, 0, 0);
+  outline-style: none;
+  width: 30px;
+  height: 30px;
+  background: url("../images/airplane-flight-white.png") center no-repeat;
+  background-size: 100%;
+  margin-top: 55px;
+  z-index: 1;
+}
+.all-services__ellipse {
+  position: absolute;
+  top: 35px;
+  left: calc(50% - 35px);
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  background-color: #ffffff;
+  visibility: hidden;
+  z-index: 0;
+}
+.all-services__title {
+  margin-top: 43px;
+  margin-bottom: 35px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.all-services__item:hover {
+  background-color: #c8a35f;
+  cursor: pointer;
+}
+.all-services__item:hover .all-services__ellipse {
+  visibility: visible;
+}
+
+.all-services__item:hover .all-services__flight {
+  background: url("../images/airplane-flight-black.png") center no-repeat;
+}
+
+@media (max-width: 640px) {
+  .all-services {
+    margin-top: 50px;
+  }
+}

@@ -1,0 +1,21 @@
+@import url("../vendors/normalize.css");
+
+@import url("../fonts/fonts.css");
+
+@import url("../bloсks/page.css");
+@import url("../bloсks/root.css");
+@import url("../bloсks/header.css");
+@import url("../bloсks/top-line.css");
+
+@import url("../bloсks/content.css");
+
+@import url("../bloсks/main-menu.css");
+@import url("../bloсks/logo.css");
+
+@import url("../bloсks/first-screen.css");
+@import url("../bloсks/services.css");
+@import url("../bloсks/paragraph.css");
+@import url("../bloсks/all-services.css");
+@import url("../bloсks/about.css");
+@import url("../bloсks/maps.css");
+@import url("../bloсks/footer.css");

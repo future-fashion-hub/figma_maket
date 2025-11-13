@@ -1,0 +1,17 @@
+.maps {
+  min-height: 450px;
+  display: flex;
+  position: relative;
+}
+
+.maps__map {
+  position: relative;
+  width: 100%;
+  min-height: 100%;
+}
+
+@media (max-width: 860px) {
+  .maps {
+    display: none;
+  }
+}

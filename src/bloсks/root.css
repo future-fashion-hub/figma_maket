@@ -1,0 +1,17 @@
+.root {
+  min-width: 320px;
+
+  font-family: "Roboto", "Helvetica Neue", "Arial", sans-serif;
+}
+
+.root__section {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.root__content {
+  max-width: 1168px;
+
+  width: calc(100% - 60px);
+  margin: 0 auto;
+}

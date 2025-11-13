@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Грузоперевозки</title>
+  </head>
+
+  <body class="page">
+    <div class="root">
+      <header class="header root__section">
+        <div class="top-line root__content">
+          <ul class="top-line__lang">
+            <li class="top-line__lang-el top-line__lang-el_activ">
+              <a class="top-line__link" href="#">рус</a>
+            </li>
+            <li class="top-line__lang-el">
+              <a class="top-line__link" href="#">eng</a>
+            </li>
+            <li class="top-line__lang-el">
+              <a class="top-line__link" href="#">fr</a>
+            </li>
+          </ul>
+
+          <p>8(800)123-45-67</p>
+          <a class="top-line__link" href="mailto:sales@log.ru">sales@log.ru</a>
+        </div>
+      </header>
+      <main class="content">
+        <section class="main-menu root__content">
+          <div class="main-menu__office">
+            <div class="logo">
+              <img class="logo__img" src="<%=require("./images/logo.png")%>" />
+              <img src="<%=require("./images/logo-text.png")%>" />
+            </div>
+            <a href="#" class="main-menu__holder"
+              ><img src="<%=require("./images/placeholder.png")%>" alt="Карта" />Наши офисы</a
+            >
+          </div>
+          <nav class="main-menu__links">
+            <a class="main-menu__link" href="#">Услуги</a>
+            <a class="main-menu__link" href="#">О компании</a>
+            <a class="main-menu__link" href="#">Вакансии</a>
+            <a class="main-menu__link" href="#">Контакты</a>
+          </nav>
+        </section>
+        <section class="first-screen root__section">
+          <div class="first-screen__label">
+            <h1 class="first-screen__title">Грузовые перевозки</h1>
+            <p class="first-screen__text">
+              Перевозка крупногабаритных грузов по России и Европе. Полное
+              экспедирование, страхование, упаковка и хранение грузов
+            </p>
+          </div>
+          <img
+            src="<%=require("./images/mouse.png")%>"
+            alt="Мышка"
+            class="first-screen__mouse"
+          />
+        </section>
+        <section class="services">
+          <div class="services__back root__section">
+            <div class="services__back_side_left"></div>
+            <div class="services__back_side_center"></div>
+            <div class="services__back_side_right"></div>
+          </div>
+          <div class="services__front root__content">
+            <div class="paragraph">
+              <div class="paragraph__line"></div>
+              <h2 class="paragraph__title">Грузоперевозки по европе</h2>
+              <p class="paragraph__text">
+                Страны Евросоюза, а также Украина, Белоруссия со всеми
+                документами.
+              </p>
+              <button class="paragraph__button" type="button" name="more">
+                подробнее
+              </button>
+            </div>
+            <img src="<%=require("./images/services.png")%>" alt="Фура" class="services__img" />
+            <div class="services__arrows">
+              <div class="services__arrows_direction_next">
+                <p class="services__arrows_text_next">СЛЕД</p>
+                <img
+                  class="services__arrows_arrow_next"
+                  alt="Вперед"
+                  src="<%=require("./images/Arrow-next.png")%>"
+                />
+              </div>
+              <div class="services__arrows_direction_back">
+                <img
+                  class="services__arrows_arrow_back"
+                  alt="Вперед"
+                  src="<%=require("./images/Arrow-back.png")%>"
+                />
+                <p class="services__arrows_text_back">НАЗАД</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="all-services root__content">
+          <div class="paragraph__line"></div>
+          <h2 class="paragraph__title">Услуги</h2>
+          <ul class="all-services__table">
+            <li class="all-services__item">
+              <div class="all-services__flight"></div>
+              <div class="all-services__ellipse"></div>
+              <p class="all-services__title">Авиаперевозки</p>
+            </li>
+            <li class="all-services__item">
+              <div class="all-services__ellipse"></div>
+              <div class="all-services__flight"></div>
+              <p class="all-services__title">Авиаперевозки</p>
+            </li>
+            <li class="all-services__item">
+              <div class="all-services__ellipse"></div>
+              <div class="all-services__flight"></div>
+              <p class="all-services__title">Авиаперевозки</p>
+            </li>
+            <li class="all-services__item">
+              <div class="all-services__ellipse"></div>
+              <div class="all-services__flight"></div>
+              <p class="all-services__title">Авиаперевозки</p>
+            </li>
+            <li class="all-services__item">
+              <div class="all-services__ellipse"></div>
+              <div class="all-services__flight"></div>
+              <p class="all-services__title">Авиаперевозки</p>
+            </li>
+            <li class="all-services__item">
+              <div class="all-services__ellipse"></div>
+              <div class="all-services__flight"></div>
+              <p class="all-services__title">Авиаперевозки</p>
+            </li>
+            <li class="all-services__item">
+              <div class="all-services__ellipse"></div>
+              <div class="all-services__flight"></div>
+              <p class="all-services__title">Авиаперевозки</p>
+            </li>
+            <li class="all-services__item">
+              <div class="all-services__ellipse"></div>
+              <div class="all-services__flight"></div>
+              <p class="all-services__title">Авиаперевозки</p>
+            </li>
+          </ul>
+        </section>
+        <section class="about root__content">
+          <div class="about__back">
+            <div class="about__back_side_left"></div>
+            <div class="about__back_side_center"></div>
+            <div class="about__back_side_right"></div>
+          </div>
+          <div class="about__front root__content">
+            <div class="paragraph">
+              <div class="paragraph__line"></div>
+              <h2 class="paragraph__title">О компании</h2>
+              <p class="paragraph__text_section_about">
+                Lorem Ipsum - это текст-"рыба", часто используемый в печати и
+                вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для
+                текстов на латинице с начала XVI века. В то время некий
+                безымянный печатник создал большую коллекцию размеров и форм
+                шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem
+                Ipsum не только успешно пережил без заметных изменений пять
+                веков, но и перешагнул в электронный дизайн.
+              </p>
+            </div>
+            <div class="about__blocks">
+              <ul class="about__table">
+                <li class="about__item">
+                  <h3 class="about__title">48</h3>
+                  <p class="about__subtitle">офисов</p>
+                  <p class="about__text">В Европе и СНГ</p>
+                </li>
+                <li class="about__item">
+                  <h3 class="about__title">361</h3>
+                  <p class="about__subtitle">грузовиков</p>
+                  <p class="about__text">Volvo, Scania</p>
+                </li>
+                <li class="about__item">
+                  <img
+                    class="about__img"
+                    alt="Авто"
+                    src="<%=require("./images/About 2.2.png")%>"
+                  />
+                </li>
+                <li class="about__item">
+                  <img
+                    class="about__img"
+                    alt="Авто"
+                    src="<%=require("./images/About 2.2.png")%>"
+                  />
+                </li>
+                <li class="about__item">
+                  <h3 class="about__title">1500</h3>
+                  <p class="about__subtitle">сотрудников</p>
+                  <p class="about__text">профессионалов</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section class="maps root__section">
+          <a
+            href="https://yandex.ru/maps/2/saint-petersburg/?utm_medium=mapframe&utm_source=maps"
+            style="color: #eee; font-size: 12px; position: absolute; top: 0px"
+            >Санкт‑Петербург</a
+          ><a
+            href="https://yandex.ru/maps/2/saint-petersburg/house/nevskiy_prospekt_127a/Z0kYdQBkQUMHQFtjfXVzdn1hYQ==/?ll=30.374861%2C59.927126&utm_medium=mapframe&utm_source=maps&z=17.2"
+            style="color: #eee; font-size: 12px; position: absolute; top: 14px"
+            >Невский проспект, 127А — Яндекс.Карты</a
+          ><iframe
+            class="maps__map"
+            src="https://yandex.ru/map-widget/v1/-/CCUI6ChZlD"
+            frameborder="1"
+            allowfullscreen="true"
+          ></iframe>
+        </section>
+      </main>
+      <footer class="footer root__section">
+        <div class="footer__line root__content">
+          <div class="logo logo_pos_footer">
+            <img src="<%=require("./images/logo-black.png")%>" />
+            <img src="<%=require("./images/logo-text.png")%>" />
+          </div>
+          <div class="footer__contact">
+            <p class="footer__adress">
+              123456, Санкт-Петербург, Невский пр-кт 127
+            </p>
+            <a class="footer__email" href="mailto:sales@log.ru">sales@log.ru</a>
+          </div>
+          <div class="footer__phones">
+            <p>+7 (812) 344-56-65</p>
+            <p>+7 (812) 355-56-65</p>
+          </div>
+          <div >
+                      <a class="footer__copyright" href="d-e-n.ru">Разработано - D-E-N.ru</a>
+                      <a class="footer__copyright" href="https://yuzhno-sakhalinsk.hh.ru/resume/23a8863bff089635460039ed1f4b4f566b7944">Верстка - SergeyK</a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,33 @@
+.top-line {
+  background-color: #c8a35f;
+  min-height: 45px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.top-line__lang {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  text-transform: uppercase;
+  padding: 0;
+}
+
+.top-line__lang-el {
+  padding-right: 10px;
+  opacity: 0.5;
+}
+.top-line__lang-el_activ {
+  opacity: 1;
+}
+.top-line__lang-el:last-child {
+  padding-right: 0;
+}
+.top-line__link {
+  color: #ffffff;
+  text-decoration: none;
+}

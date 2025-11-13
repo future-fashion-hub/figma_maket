@@ -1,0 +1,128 @@
+.services {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+.services__back {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  left: 0;
+  top: 0;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+}
+
+.services__back_side_center {
+  width: 35%;
+  max-width: 410px;
+}
+
+.services__back_side_left {
+  background-color: #393f47;
+  flex: 1;
+}
+
+.services__back_side_right {
+  background-color: #393f47;
+  flex: 1;
+}
+
+.services__front {
+  position: relative;
+  z-index: 1;
+  margin-top: 120px;
+  margin-bottom: 129px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.services__img {
+  align-self: center;
+}
+
+.services__arrows {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: #c8a35f;
+}
+.services__arrows_text_back {
+  margin: 0 0 0 30px;
+}
+.services__arrows_text_next {
+  margin: 0 30px 0 0;
+}
+
+.services__arrows_direction_next {
+  display: flex;
+}
+.services__arrows_direction_next:hover {
+  cursor: pointer;
+}
+
+.services__arrows_direction_back {
+  display: flex;
+}
+.services__arrows_direction_back:hover {
+  cursor: pointer;
+}
+.services__arrows_arrow_next {
+  transition: transform 1s ease-in-out;
+}
+.services__arrows_direction_next:hover .services__arrows_arrow_next {
+  transform: translateX(20px);
+}
+.services__arrows_arrow_back {
+  transition: transform 1s ease-in-out;
+}
+.services__arrows_direction_back:hover .services__arrows_arrow_back {
+  transform: translateX(-20px);
+}
+
+@media (max-width: 1050px) {
+  .services__img {
+    display: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .services__front {
+    flex-direction: column;
+  }
+  .services__arrows {
+    margin-top: 20px;
+    flex-direction: row-reverse;
+  }
+  .services__front {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+  .services__arrows_direction_next {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .services__arrows_direction_back {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .services__arrows_text_back {
+    margin: 0;
+  }
+  .services__arrows_text_next {
+    margin: 0;
+  }
+}
